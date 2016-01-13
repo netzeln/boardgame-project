@@ -8,9 +8,40 @@
 
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>The Great Game Selector</title>
   </head>
   <body>
+    <div class="container">
+      <h1>The Great Game Selector!</h1>
+      <form>
+        <div class="form-group">
+          <label for="name">Enter your name:</label>
+          <input type="name" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="age" class="form-control" id="age" placeholder="age">
+        </div>
+        <div class="form-group">
+          <label for="players">How many people do you have to play with?</label>
+          <input type="players" class="form-control" id="players" placeholder="players">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="">
+            Have you played games before?
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <div id="output-message">
+        <h3>Hi <span class="nameInput"></span>, </h3>
+        <p>Based on the information provided, we think the following games would be a great selection for you and your <span class="playersInput"></span>:
+          <span class="gameOutput"></span>
+        </p>
+      </div>
+    </div>
 
   </body>
 </html>
