@@ -1,0 +1,7 @@
+#output-message {
+  display: none;
+}
+.gameOutput {
+  color: blue;
+  font-weight: bold;
+}

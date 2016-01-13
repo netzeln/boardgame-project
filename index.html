@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <h1>The Great Game Selector!</h1>
-      <form>
+      <form id="game-selector">
         <div class="form-group">
           <label for="name">Enter your name:</label>
           <input type="name" class="form-control" id="name" placeholder="Name">
@@ -28,7 +28,7 @@
         </div>
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="">
+            <input type="checkbox" id="check" >
             Have you played games before?
           </label>
         </div>
@@ -37,8 +37,8 @@
       </form>
       <div id="output-message">
         <h3>Hi <span class="nameInput"></span>, </h3>
-        <p>Based on the information provided, we think the following games would be a great selection for you and your <span class="playersInput"></span>:
-          <span class="gameOutput"></span>
+        <p>Based on the information provided, we think <span class="gameOutput"></span>  would be a great selection for you and your group!
+
         </p>
       </div>
     </div>
