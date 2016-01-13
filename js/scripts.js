@@ -27,7 +27,7 @@ $(document).ready(function() {
       }
    }
     else {
-     alert('Please enter your name.');
+      $(".form-group").attr("class", "has-error");
     }
 
   $("#output-message").show();
